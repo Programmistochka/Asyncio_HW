@@ -1,3 +1,4 @@
 .env
 async_env/
 __pycache__
+.vscode/

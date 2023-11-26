@@ -7,3 +7,8 @@
 	async_env\Scripts\activate.bat
 3. Установить requirements.txt
 	pip install -r requirements.txt
+4. При необходимости развернуть БД из Docker-контейнера 
+	docker-compose up
+5. Проверить порт подключения к БД в models.py
+	Для запуска лок БД - 5432
+	Для Docker контейнера с БД - 5431
